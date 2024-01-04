@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{8740D97A-BE95-4ECF-9AE1-2FDDA6F2B2DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "frugoal.API", "src\frugoal.API\frugoal.API.csproj", "{96556D0C-773D-4115-AA8E-669CDC0C457C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Application", "src\frugoal.Application\frugoal.Application.csproj", "{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Domain", "src\frugoal.Domain\frugoal.Domain.csproj", "{E855CC0E-90D1-42CC-AEFA-181A9FD2A659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Shared", "3 - Shared", "{73ED554E-7360-4D45-8435-DA566AECD82C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Core", "2 - Core", "{6F253F14-64CC-4DCA-8FC9-33CC79BBC92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Shared", "src\frugoal.Shared\frugoal.Shared.csproj", "{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{BDBFCD0F-5186-49AB-B39F-D13FE9E4E160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Infrastructure.Data", "src\frugoal.Infrastructure.Data\frugoal.Infrastructure.Data.csproj", "{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Infrastructure.CrossCutting.IoC", "src\frugoal.Infrastructure.CrossCutting.IoC\frugoal.Infrastructure.CrossCutting.IoC.csproj", "{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Infrastructure.Services", "src\frugoal.Infrastructure.Services\frugoal.Infrastructure.Services.csproj", "{6215F9B4-74C8-4D73-8175-AC5F3C892A66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{CE2A657C-A966-496F-9D1A-6A9D6E3AFD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frugoal.Tests.UnitTests", "tests\frugoal.Tests.UnitTests\frugoal.Tests.UnitTests.csproj", "{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96556D0C-773D-4115-AA8E-669CDC0C457C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96556D0C-773D-4115-AA8E-669CDC0C457C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96556D0C-773D-4115-AA8E-669CDC0C457C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96556D0C-773D-4115-AA8E-669CDC0C457C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E855CC0E-90D1-42CC-AEFA-181A9FD2A659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E855CC0E-90D1-42CC-AEFA-181A9FD2A659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E855CC0E-90D1-42CC-AEFA-181A9FD2A659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E855CC0E-90D1-42CC-AEFA-181A9FD2A659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6215F9B4-74C8-4D73-8175-AC5F3C892A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6215F9B4-74C8-4D73-8175-AC5F3C892A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6215F9B4-74C8-4D73-8175-AC5F3C892A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6215F9B4-74C8-4D73-8175-AC5F3C892A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96556D0C-773D-4115-AA8E-669CDC0C457C} = {8740D97A-BE95-4ECF-9AE1-2FDDA6F2B2DC}
+		{E755BEA2-6E58-4B4A-A3FF-D1A72DDE0234} = {6F253F14-64CC-4DCA-8FC9-33CC79BBC92C}
+		{E855CC0E-90D1-42CC-AEFA-181A9FD2A659} = {6F253F14-64CC-4DCA-8FC9-33CC79BBC92C}
+		{D50B1972-C20D-4A8B-9CD1-136B8A5A9DDE} = {73ED554E-7360-4D45-8435-DA566AECD82C}
+		{936A22C0-45E4-4198-9CFB-FA0C9F0F84D7} = {BDBFCD0F-5186-49AB-B39F-D13FE9E4E160}
+		{B3B8238D-D540-4A82-A6C5-E3A3F1CB3892} = {BDBFCD0F-5186-49AB-B39F-D13FE9E4E160}
+		{6215F9B4-74C8-4D73-8175-AC5F3C892A66} = {BDBFCD0F-5186-49AB-B39F-D13FE9E4E160}
+		{6A03A38A-4F15-45AD-A47C-A2BE588C6A9A} = {CE2A657C-A966-496F-9D1A-6A9D6E3AFD17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC376F26-04BD-4361-AFB0-D2D3DA57E367}
+	EndGlobalSection
+EndGlobal
